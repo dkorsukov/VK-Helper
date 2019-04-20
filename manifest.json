@@ -1,0 +1,17 @@
+{
+	"name": "VK Helper",
+	"description": "Instruments for VK",
+	"version": "1.0",
+	"manifest_version": 2,
+	"permissions": ["storage"],
+	"browser_action": {
+		"default_popup": "popup/popup.html"
+	},	
+	"content_scripts": [
+		{
+			"matches": ["https://vk.com/*"],
+			"js": ["script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
