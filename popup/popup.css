@@ -28,5 +28,9 @@
 
 .ext-controls-info {
 	padding: 5px;
-	font-size: 15px;	
+	font-size: 14px;	
+}
+
+.ext-control {
+	margin-bottom: 20px;
 }
